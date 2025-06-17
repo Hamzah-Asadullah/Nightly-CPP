@@ -18,7 +18,7 @@ private:
 public:
     BankAccount(): accountNumber(unused_UUID), ownerName("Wasn't ChatGPT's requirement"), balance(0) { ++unused_UUID; }
     void deposit(double amount) { if (amount >= 0) balance += amount; }
-    bool widthdraw(double amount)
+    bool withdraw(double amount)
     {
         if (((balance - amount) >= DEBT_LIMIT) && (amount >= 0))
             balance -= amount;
@@ -148,7 +148,7 @@ int main()
                 double amount;
                 std::cout << ">> Enter the amount you want to withdraw: ";
                 std::cin >> amount;
-                if (accounts[UUID].widthdraw(amount))
+                if (accounts[UUID].withdraw(amount))
                     accounts[UUID].display();
                 else std::cout << ">> Failed to withdraw" << amount << " due to either invalid input or invalid balance.\n" << std::endl;
             }
