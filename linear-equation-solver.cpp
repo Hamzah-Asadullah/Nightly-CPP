@@ -14,8 +14,8 @@ int main()
     double a, b, c, x = 0.0; std::cin >> a >> b >> c; // I ain't writing for idiots feeling funny with letters
 
     if ((a == 0.0) && (b == c)) std::cout << ">> Infinite solutions." << std::endl;
-    if ((a == 0.0) && (b != c)) std::cout << ">> No solution." << std::endl;
-    std::cout << ">> x = " << '(' << c << " - " << b << ") / " << a << " = " << double(c - b) / a << std::endl;
+    else if ((a == 0.0) && (b != c)) std::cout << ">> No solution." << std::endl;
+    else std::cout << ">> x = " << '(' << c << " - " << b << ") / " << a << " = " << double(c - b) / a << std::endl;
 }
     return 0;
 }
