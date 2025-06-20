@@ -35,8 +35,8 @@ Output:
 ---
 
 Let me know if you want an extra challenge like subtracting or multiplying them too.
-
 ```
+My solution after `~30min of work` can be found at `simple-fraction-addition.cpp`.
 
 ## Linear Equation Solver (DD/MM/YYYY : 19/06/2025)
 Project description:
