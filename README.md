@@ -69,7 +69,7 @@ Let me know if you want an extra challenge like subtracting or multiplying them 
 ```
 My solution after `~30min of work` can be found at `simple-fraction-addition.cpp`.
 
-## Linear Equation Solver (DD/MM/YYYY : 19/06/2025)
+## Linear Equation Solver
 Project description:
 ```md
 Sure! Here's a project description that fits Algebra 1 level, is doable in about 20 minutes, and only uses standard C++ libraries:
@@ -103,7 +103,7 @@ Let me know if you want a version with a quadratic equation, or something involv
 ```
 My final solution after `~13 minutes of work` can be found at `linear-equation-solver.cpp`.
 
-## Useless Bank (DD/MM/YYYY : 18/06/2025)
+## Useless Bank
 Project description:
 ```md
 ### 🧠 **Exercise: Bank Account Management System**
@@ -148,7 +148,7 @@ Create a simple bank account management system that allows users to:
 ```
 My final solution after `~35 minutes of work` can be found at `useless-bank.cpp`.
 
-## Primes In Range (DD/MM/YYYY : 17/06/2025)
+## Primes In Range
 Project description:
 ```md
 ### 🔍 **Task Description**
