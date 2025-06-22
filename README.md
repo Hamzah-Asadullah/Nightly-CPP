@@ -3,6 +3,40 @@
 Prompt ChatGPT to generate a small C++ exercise (like 5 to 15 mins of work) task for me when I feel like it, mostly near or at midnight.  
 Thought I'd store / post the code here, mostly isn't something professional or stuff you should consider learning from. 
 
+## Percentage Calc
+Project description:
+```md
+Sure! Here's a simple but useful task idea that fits your level (Algebra 1, 9th grade, Realschule) and can be done in around 20 minutes using only standard C++ (no extra libraries):
+
+---
+
+**📌 Task: Percentage Calculator**
+
+**Description:**
+Write a C++ program that helps the user calculate basic percentage problems. The program should support the following:
+
+1. **Find percentage of a number**
+   Example: What is 20% of 150?
+
+2. **Find what percent one number is of another**
+   Example: What percent is 30 of 200?
+
+3. **Find the original number given part and percent**
+   Example: 45 is 30% of what number?
+
+**Requirements:**
+
+* Present a menu with the 3 options
+* Let the user select an option and enter the required values
+* Output the result with reasonable formatting (e.g., 2 decimal places)
+* Allow the user to repeat the process or exit
+
+---
+
+Would you like a couple more ideas just in case?
+```
+My solution after `~15min of work` can be found at `percentage-calc.cpp`.
+
 ## Linear Function Table Generator
 Project description:
 ```md
