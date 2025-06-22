@@ -3,6 +3,50 @@
 Prompt ChatGPT to generate a small C++ exercise (like 5 to 15 mins of work) task for me when I feel like it, mostly near or at midnight.  
 Thought I'd store / post the code here, mostly isn't something professional or stuff you should consider learning from. 
 
+## Length Unit Converter
+Project description:
+```md
+Sure! Here's a simple and useful project idea at your level that fits within a 20-minute coding window:
+
+---
+
+**📐 Unit Converter: Lengths Edition**
+
+Write a program that allows the user to convert between common length units:
+
+* Millimeters (mm)
+* Centimeters (cm)
+* Meters (m)
+* Kilometers (km)
+
+### Requirements:
+
+1. The user selects the **input unit** (e.g., "cm").
+2. The user enters a **numeric value** (e.g., 175).
+3. The user selects the **target unit** (e.g., "m").
+4. The program calculates and prints the **converted value** with the correct unit.
+
+### Example:
+
+---
+Enter value: 175
+From unit (mm/cm/m/km): cm
+To unit (mm/cm/m/km): m
+Result: 1.75 m
+---
+
+### Notes:
+
+* Use only standard libraries (`iostream`, no `<cmath>` needed).
+* Use `if` or `switch` for unit handling.
+* Great for practicing: input validation, basic arithmetic, and clean output formatting.
+
+---
+
+Let me know if you want a version with **mass**, **time**, or **temperature** conversion instead.
+```
+My solution after `~20min of work` can be found at `length-unit-converter.cpp`.
+
 ## Percentage Calc
 Project description:
 ```md
